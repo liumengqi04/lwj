@@ -1,0 +1,111 @@
+.content {
+  margin-top: 48px;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+  .goodsDetail {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    box-sizing: content-box;
+    .enlargeBox {
+      display: none;
+      width: 400px;
+      height: 400px;
+      position: absolute;
+      top: 0;
+      left: 340px;
+      background-color: #fff;
+      overflow: hidden;
+      background-position: 0 0;
+      background-size: 800px 800px;
+      background-repeat: no-repeat;
+      z-index: 999;
+    }
+    .showbox {
+      width: 320px;
+      // height: 320px;
+      overflow: hidden;
+      .show {
+        width: 320px;
+        height: 320px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .movemask {
+        display: none;
+        width: 160px;
+        height: 160px;
+        cursor: move;
+        position: absolute;
+        background: url(http://product.dangdang.com/images/zoom_pup.png);
+        top: 0;
+        left: 0;
+        pointer-events: none;
+      }
+    }
+    .list {
+      margin-top: 20px;
+      width: 320px;
+      height: 54px;
+      display: flex;
+      p {
+        width: 54px;
+        height: 54px;
+        margin-right: 5px;
+        &.active {
+          border: 1px solid #ff2832;
+        }
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    .goodsInfo {
+      width: 630px;
+      height: 500px;
+      //   flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      //   box-sizing: border-box;
+      padding: 30px;
+      padding-top: 10px;
+      .desc {
+        font-size: 18px;
+        line-height: 24px;
+        max-height: 48px;
+        color: #323232;
+        margin: 0 auto;
+        overflow: hidden;
+        font-weight: bold;
+      }
+      .price {
+        font-size: 20px;
+        span {
+          font-size: 30px;
+        }
+      }
+      .num {
+        display: flex;
+        button {
+          width: 40px;
+          height: 40px;
+        }
+        input {
+          height: 43px;
+          width: 75px;
+          text-align: center;
+          border: none;
+        }
+      }
+    }
+  }
+  .goodsNav {
+    margin-top: 30px;
+  }
+}

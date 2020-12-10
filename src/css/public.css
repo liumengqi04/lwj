@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  line-height: 1;
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #666;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+.center {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+input,
+button {
+  outline: none;
+  border: 0;
+}
+
+/*# sourceMappingURL=public.css.map */

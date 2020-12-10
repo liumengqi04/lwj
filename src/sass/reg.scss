@@ -1,0 +1,44 @@
+.center {
+  width: 960px;
+  margin: 0 auto;
+}
+.head {
+  height: 70px;
+  border-bottom: 3px solid #f07700;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+.loginbox {
+  .wrap {
+    border-color: #f07700;
+  }
+  .register {
+    background-color: #fff;
+    border: none;
+    color: #464646;
+    font-size: 16px;
+  }
+  .wrap-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .form-group {
+      display: flex;
+      .labelinfo {
+        text-align: right;
+      }
+      .form-control {
+        // display: inline-block;
+        width: 290px;
+      }
+    }
+    .regbtn {
+      display: block;
+      margin: 0 auto;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}

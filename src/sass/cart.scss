@@ -1,0 +1,300 @@
+.cart-center {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
+.header {
+  .head-content {
+    .head-right {
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+.logobox {
+  background-color: #fff;
+  width: 100%;
+  height: 104px;
+  border-bottom: 4px solid #ff2832;
+  .login-shop {
+    display: flex;
+    justify-content: space-between;
+    .logo {
+      padding: 20px 0 0 15px;
+    }
+    .shopping-procedure {
+      width: 634px;
+      height: 36px;
+      background: url(http://shopping.dangdang.com/shoppingcart/images/procedure_bg.png)
+        0 0 no-repeat;
+      font-weight: bold;
+      font-size: 14px;
+      color: #646464;
+      margin: 30px 0 0;
+      display: flex;
+      span {
+        width: 211px;
+        height: 36px;
+        line-height: 36px;
+        // display: inline-block;
+        display: block;
+        text-align: center;
+        &.current {
+          color: #fff;
+          width: 206px;
+        }
+      }
+    }
+  }
+}
+.add-line {
+  width: 100%;
+  //   overflow: hidden;
+  display: flex;
+  background-color: #fafafa;
+  .address {
+    display: flex;
+    width: 190px;
+    height: 22px;
+    line-height: 22px;
+    margin: 15px 0;
+    background-color: #fcfcfc;
+    border: 1px solid #ebebeb;
+    padding: 0 15px;
+    box-sizing: content-box;
+    border-radius: 12px;
+    .icon {
+      display: block;
+      width: 22px;
+      height: 22px;
+      margin-right: 5px;
+      background: url(http://shopping.dangdang.com/shoppingcart/images/icon_sprite.png)
+        0 5px no-repeat;
+    }
+    .select-add {
+      position: relative;
+      .default-text {
+        display: block;
+        color: #646464;
+        border: 1px solid #ebebeb;
+        border-width: 0 1px;
+        height: 22px;
+        line-height: 22px;
+        padding: 0 14px 0 5px;
+        background: url(http://shopping.dangdang.com/shoppingcart/images/icon_sprite.png)
+          no-repeat right -53px #fff;
+      }
+      .area-select {
+        display: none;
+        position: absolute;
+        width: 369px;
+        height: 144px;
+        z-index: 100;
+        border: 1px solid #ebebeb;
+        background-color: #fff;
+        padding: 0 2px;
+        font-size: 12px;
+        top: 22px;
+        left: 0;
+      }
+    }
+  }
+}
+.empty {
+  padding: 90px 0 0 495px;
+  background: url(http://shopping.dangdang.com/shoppingcart/images/empty.png)
+    90px 46px no-repeat;
+  height: 190px;
+  box-sizing: content-box;
+  p {
+    font-size: 14px;
+    color: #8a8888;
+  }
+  a {
+    width: 116px;
+    height: 38px;
+    display: block;
+    background-color: #ff2832;
+    color: #fff;
+    line-height: 38px;
+    text-align: center;
+    font-size: 18px;
+    margin: 30px 20px 0 0;
+    border-radius: 2px;
+    &:hover {
+      background-color: #d21f2b;
+      text-decoration: underline;
+    }
+  }
+}
+.shopping-ads {
+  border: 1px solid #dcdcdc;
+  margin-bottom: 20px;
+  padding: 10px 0 15px;
+  box-sizing: content-box;
+  .ads-tab {
+    line-height: 36px;
+    height: 36px;
+    padding-left: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #323232;
+  }
+}
+.panel {
+  border: none;
+
+  .cart-heading {
+    border: none;
+
+    box-sizing: content-box;
+    background-color: #fff;
+
+    padding: 0;
+    .shopping-title {
+      margin-top: 20px;
+      height: 36px;
+      display: flex;
+      margin-bottom: 0;
+      color: #969696;
+      font-size: 12px;
+      li {
+        text-align: center;
+        line-height: 36px;
+        &.f1 {
+          width: 202px;
+          text-align: left;
+          input {
+            margin: 0;
+            margin-right: 10px;
+          }
+        }
+        &.f2 {
+          width: 280px;
+          text-align: left;
+        }
+        &.f3 {
+          width: 130px;
+        }
+        &.f4 {
+          width: 130px;
+        }
+        &.f5 {
+          width: 70px;
+        }
+      }
+    }
+  }
+  .cart-body {
+    padding: 0;
+    margin-top: 20px;
+    border: 1px solid #ebebeb;
+    .goodsList {
+      padding: 0;
+      li {
+        box-sizing: content-box;
+        display: flex;
+        .select {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 52px;
+        }
+        .goodsImg {
+          padding: 20px 20px 20px 0;
+          img {
+            width: 80px;
+            height: 80px;
+          }
+        }
+        .goodsDesc {
+          width: 330px;
+          line-height: 18px;
+          padding-top: 17px;
+          position: relative;
+          p{
+              width: 100%;
+              height: 36px;
+              overflow: hidden;
+              margin-bottom: 27px;
+          }
+        }
+        .price{
+            width: 130px;
+            padding-top: 15px;
+            text-align: center;
+            position: relative;
+            line-height: 22px;
+            span{
+                color: #323232;
+                font-size: 14px;
+            }
+        }
+        .count{
+            width: 130px;
+            padding-top: 15px;
+            position: relative;
+            text-align: center;
+            line-height: 22px;
+            display:flex;
+            justify-content: center;
+            button{
+                height: 28px;
+                width: 28px;
+                border: 1px solid #dcdcdc;
+                background-color: #f4f4f4;
+            }
+            input{
+                display: block;
+                width: 36px;
+                height: 28px;
+                padding: 0;
+                text-align: center;
+                border: 1px solid #dcdcdc;
+                border-width: 1px 0;
+                background-color: #fff;
+                font-weight: bold;
+            }
+        }
+        .xiaoji{
+            width: 130px;
+            padding-top: 15px;
+            position: relative;
+            text-align: center;
+            line-height: 22px;
+            span{
+                color: #ff2832;
+            }
+        }
+        .operate{
+            width: 70px;
+            padding-top: 15px;
+            position: relative;
+            text-align: center;
+            line-height: 22px;
+            button{
+
+            }
+
+        }
+      }
+    }
+  }
+  .buyInfo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .buyInfo > .buyNum,
+  .buyInfo > .buyMoney,
+  .buyInfo > .operate {
+    margin-bottom: 0;
+    font-size: 20px;
+  }
+  
+  .buyInfo > .buyNum > span,
+  .buyInfo > .buyMoney > span {
+    font-size: 30px;
+  }
+}
