@@ -20,5 +20,8 @@
     "gulp-htmlmin": "^5.0.1",
     "gulp-sass": "^4.1.0",
     "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "node-sass": "^5.0.0"
   }
 }
