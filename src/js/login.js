@@ -42,7 +42,7 @@ $(function () {
                     // 为了在首页还需要使用
                     setCookie('nickname', res.nickname)
                     // 跳转页面
-                    window.location.href = './index.html'
+                    window.location.href = '../pages/index.html'
                 }
             })
         }
